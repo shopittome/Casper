@@ -23,6 +23,7 @@ production stylesheet in assets/built/screen.css
 9.  Error Template
 10. Subscribe Overlay
 11. Site Footer
+12. SITM Overrides
 
 */
 
@@ -2277,4 +2278,13 @@ Usage (In Ghost editor):
     .site-footer-nav a:first-child {
         margin-left: 0;
     }
+}
+
+
+/* 11. SITM Overrides
+/* ---------------------------------------------------------- */
+
+.post-template .post-content > p:first-child {
+    font-size: 1em;
+    line-height: 1em;
 }
