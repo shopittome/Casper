@@ -2288,3 +2288,13 @@ Usage (In Ghost editor):
     font-size: 1em;
     line-height: 1em;
 }
+
+.post-content div {
+    text-align: center;
+}
+
+.post-content div img {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
