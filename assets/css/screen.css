@@ -2284,6 +2284,30 @@ Usage (In Ghost editor):
 /* 11. SITM Overrides
 /* ---------------------------------------------------------- */
 
+:root {
+    /* SITM Colours */
+    --fonts: #393737;
+    --anchor: #e2574c;
+    --color: #0e0e0e; /* almost black */
+
+    --color-dark: #808080;
+    --color-medium: #959595;
+    --color-light: #b8b8b8;
+    --color-highlight: #e2574c;
+    --color-highlight-dark: #9e3833;
+
+    --line-color: #dddddd;
+
+    --font-size: 1rem;
+    --font-family: Quicksand, sans-serif;
+    --font-family-highlight: "Playfair Display", sans-serif;
+    --footer-color: #908c8c;
+
+    --success-color: #4ce2a2;
+    --warning-color: #4c8ce2;
+    --error-color: #e2574c;
+}
+
 .post-template .post-content > p:first-child {
     font-size: 1em;
     line-height: 1em;
@@ -2297,4 +2321,19 @@ Usage (In Ghost editor):
     display: inline-block;
     margin: 0 auto;
     text-align: center;
+}
+
+.post-full-content a, a {
+    color: color(var(--midgrey) l(-25%));
+    text-decoration: underline;
+    box-shadow: none;
+}
+
+.post-full-content a:hover, a:hover {
+    color: color(var(--anchor));
+    text-decoration: none;
+}
+
+.post-full-meta-date {
+    color: color(var(--color-medium));
 }
