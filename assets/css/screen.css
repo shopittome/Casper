@@ -2374,4 +2374,11 @@ Usage (In Ghost editor):
     font-size: 3.3rem;
 }
 
-
+.post-full-content:after, .post-full-content:before {
+    content: "";
+    position: relative;
+    display: block;
+    height: 0;
+    background: none;
+    filter: none;
+}
