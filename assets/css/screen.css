@@ -2382,3 +2382,7 @@ Usage (In Ghost editor):
     background: none;
     filter: none;
 }
+
+.post-full-content a, a {
+    text-decoration: none;
+}
