@@ -2334,6 +2334,19 @@ Usage (In Ghost editor):
     text-decoration: none;
 }
 
+.post-full-content:after, .post-full-content:before {
+    content: "";
+    position: relative;
+    display: block;
+    height: 0;
+    background: none;
+    filter: none;
+}
+
+.post-card-content-link {
+    text-decoration: none;
+}
+
 .post-full-meta-date {
     color: color(var(--color-medium));
 }
@@ -2372,17 +2385,4 @@ Usage (In Ghost editor):
 
 .site-description {
     font-size: 3.3rem;
-}
-
-.post-full-content:after, .post-full-content:before {
-    content: "";
-    position: relative;
-    display: block;
-    height: 0;
-    background: none;
-    filter: none;
-}
-
-.post-full-content a, a {
-    text-decoration: none;
 }
