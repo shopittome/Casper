@@ -2386,3 +2386,8 @@ Usage (In Ghost editor):
 .site-description {
     font-size: 3.3rem;
 }
+
+.post-template .post-content > p:first-child {
+    font-size: 1.1em;
+    line-height: 1.25em;
+}
