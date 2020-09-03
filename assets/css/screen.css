@@ -2392,10 +2392,10 @@ Usage (In Ghost editor):
     line-height: 1.25em;
 }
 
-.highlight-button {
+a.highlight-button {
   display: inline-block;
   padding: 10px;
-  margin: 0;
+  margin: 15px 0;
   text-align: center;
   border: 1px solid transparent;
   cursor: pointer;
@@ -2404,41 +2404,17 @@ Usage (In Ghost editor):
   vertical-align: middle;
   text-decoration: none;
   color: #ffffff;
-  background-color: #0e0e0e;
-
-  span {
-    color: $button-text-color;
-  }
-
-  &.disabled {
-    background-color: #b8b8b8;
-    opacity: 0.8;
-
-    &:hover {
-      background-color: #b8b8b8;
-      opacity: 0.8;
-    }
-  }
-
-  &:hover, &:focus {
-    color: #ffffff;
-    background-color: #e2574c;
-    transition: 0.3s;
-  }
-
-  &:active {
-    background-color: #9e3833;
-  }
+  background-color: #e2574c;
+  font-size: larger;
+  padding: 0.75rem 1rem;
 }
 
-.highlight-button {
-  background-color: #e2574c;
-
-  &:hover, &:focus {
+a.highlight-button:hover, a.highlight-button:focus {
     background-color: #0e0e0e;
-  }
+    color: #ffffff;
+    transition: 0.3s;
+}
 
-  &:active {
+a.highlight-button:active {
     background-color: #000;
-  }
 }
